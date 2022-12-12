@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "firstname": "Vishesh",
+            "lastname": "Gupta",
+            "age": "22",
+            "email": "visheshguptavgr@gmail.com",
+            "verified": "true"
+        },
+        {
+            "id": 2,
+            "firstname": "Rohit",
+            "lastname": "Chauhan",
+            "age": "21",
+            "email": "rschauhan@gmail.com",
+            "verified": "true"
+        },
+        {
+            "id": 3,
+            "firstname": "Abhinav",
+            "lastname": "Kashyap",
+            "age": "22",
+            "email": "kashyapabhinav@gmail.com",
+            "verified": "false"
+        },
+        {
+            "id": 4,
+            "firstname": "Kshitij",
+            "lastname": "Rajput",
+            "age": "23",
+            "email": "ksrajput@gmail.com",
+            "verified": "false"
+        },
+        {
+            "id": 5,
+            "firstname": "Gaurav",
+            "lastname": "Maurya",
+            "age": "24",
+            "email": "mauryagaurav@gmail.com",
+            "verified": "false"
+        }
+    ]
+}

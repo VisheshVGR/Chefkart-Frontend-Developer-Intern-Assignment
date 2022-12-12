@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HOMEPAGE STYLE */
+.homepage h1 {
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.homepage .requirements {
+  padding: 0 20px;
+}
+
+.homepage img {
+  width: 100%;
+}
+
+.homepage .examples-btn {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .examples-btn button {
+  padding: 10px;
+  border: none;
+  background-color: #666;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homepage .examples-btn button:hover {
+  background-color: #222;
+}
+
+.change-status-mui-btn div:hover {
+  cursor: pointer;
+}
+
+.seven-row {
+  display: grid;
+  grid-template-columns: [id] 60px [first name] 150px [last name] 150px [age] 100px [email] auto [verified] 100px [Change Status] 150px [end];
+}
+
+.table-row,
+.table-heading {
+  padding: 5px 0;
+  border: 1px solid black;
+}
+
+.table-row div {
+  padding: 0 5px;
+  border-right: 1px solid #666;
+}
+
+.sorting {
+  cursor: pointer;
+}
